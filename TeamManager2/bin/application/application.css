@@ -1,0 +1,75 @@
+.root {
+    -fx-padding: 20;
+    -fx-background-color: #f7f7f7; /* 전체 배경색 설정 */
+}
+
+.button {
+    -fx-padding: 10 20; /* 버튼의 안쪽 여백 설정 */
+    -fx-font-size: 14px; /* 폰트 크기 설정 */
+    -fx-font-weight: bold; /* 폰트 굵기 설정 */
+    -fx-border-radius: 5; /* 버튼의 모서리 둥글기 설정 */
+    -fx-background-radius: 5;
+    -fx-border-width: 0; /* 버튼 테두리 두께 설정 */
+}
+
+.primary-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #2980b9;
+    -fx-cursor: hand; /* 마우스 호버 시 포인터 커서로 변경 */
+}
+
+.secondary-button {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #27ae60;
+    -fx-cursor: hand; /* 마우스 호버 시 포인터 커서로 변경 */
+}
+
+.danger-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #c0392b;
+    -fx-cursor: hand; /* 마우스 호버 시 포인터 커서로 변경 */
+}
+
+/* TableView 스타일 */
+.table-view {
+    -fx-background-color: white; /* 테이블 배경색 설정 */
+    -fx-border-color: #dcdcdc; /* 테이블 테두리 색상 설정 */
+    -fx-border-width: 1; /* 테이블 테두리 두께 설정 */
+}
+
+.table-column {
+    -fx-alignment: CENTER; /* 테이블 셀 텍스트 정렬 설정 */
+    -fx-font-size: 22px; /* 테이블 셀 텍스트 크기 설정 */
+    -fx-background-color: #3498db; /* 테이블 셀 배경색 설정 */
+    -fx-text-fill: white; /* 테이블 셀 텍스트 색상 설정 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2980b9; /* 선택된 셀 배경색 설정 */
+    -fx-text-fill: white; /* 선택된 셀 텍스트 색상 설정 */
+}
+
+.text-field {
+    -fx-font-size: 14px; /* 텍스트 필드 텍스트 크기 설정 */
+    -fx-padding: 10; /* 텍스트 필드 패딩 설정 */
+    -fx-border-radius: 5; /* 텍스트 필드 모서리 둥글기 설정 */
+    -fx-border-color: #dcdcdc; /* 텍스트 필드 테두리 색상 설정 */
+    -fx-background-color: white; /* 텍스트 필드 배경색 설정 */
+}
+
+.label {
+    -fx-font-size: 14px; /* 레이블 텍스트 크기 설정 */
+    -fx-text-fill: #333333; /* 레이블 텍스트 색상 설정 */
+}
